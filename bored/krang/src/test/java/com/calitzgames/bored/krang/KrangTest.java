@@ -3,7 +3,7 @@ package com.calitzgames.bored.krang;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class krangtest {
+public class KrangTest {
 
     private final Krang m_krang = new Krang();
     @Test
