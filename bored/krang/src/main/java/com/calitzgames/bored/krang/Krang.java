@@ -1,10 +1,12 @@
 package com.calitzgames.bored.krang;
 import java.lang.*;
 
-public class krang {
+public class Krang {
 
-    public void print_lin(String input){
+    public String print_lin(String input){
         System.out.println(input);
+
+        return input;
     }
 
 }
