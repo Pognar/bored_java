@@ -1,6 +1,7 @@
 package com.calitzgames.bored.main;
 import com.calitzgames.bored.krang.Krang;
 import com.calitzgames.bored.krang.dts.*;
+import com.calitzgames.bored.window.Window;
 
 import java.lang.*;
 
@@ -11,6 +12,7 @@ public class Main {
 		krang.displayInformation(information);
 		krang.printInformationObjJson(information);
 		krang.writeToJsonInformation(information);
+		new Window();
 
 	}
 }

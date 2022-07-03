@@ -13,6 +13,7 @@
     <modules>
         <module>krang</module>
         <module>entry</module>
+        <module>window</module>
     </modules>
 
     <properties>
