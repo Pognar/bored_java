@@ -1,7 +1,6 @@
 package com.calitzgames.bored.main;
 import com.calitzgames.bored.krang.Krang;
 import com.calitzgames.bored.krang.dts.*;
-import jdk.nashorn.api.scripting.JSObject;
 
 import java.lang.*;
 
@@ -11,6 +10,7 @@ public class Main {
 		Information information = krang.setInformation("Header information", 123);
 		krang.displayInformation(information);
 		krang.printInformationObjJson(information);
+		krang.writeToJsonInformation(information);
 
 	}
 }
