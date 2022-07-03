@@ -32,7 +32,7 @@ public class Krang {
 	}
 
 	public void writeToJsonInformation(Information informationObj) {
-		Gson gson = new Gson();
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		try {
 			Writer writer = Files.newBufferedWriter(Paths.get("jsonfiles/information.json"));
 			gson.toJson(informationObj, writer);
