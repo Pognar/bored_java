@@ -5,13 +5,13 @@ import org.junit.Test;
 
 public class KrangTest {
 
-	private final Krang m_krang = new Krang();
+	private final Krang mKrang = new Krang();
 
 	@Test
 	public void print_lin_test() {
-		String test_str = "This is a test string";
-		String returned_str = m_krang.printLin(test_str);
+		String testStr = "This is a test string";
+		String returnedStr = mKrang.printLin(testStr);
 
-		Assert.assertEquals(test_str, returned_str);
+		Assert.assertEquals(testStr, returnedStr);
 	}
 }
