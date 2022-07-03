@@ -1,6 +1,12 @@
 package com.calitzgames.bored.krang;
 import com.calitzgames.bored.krang.dts.Information;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import jdk.nashorn.api.scripting.JSObject;
+
 import java.lang.*;
+
+
 
 public class Krang {
 
@@ -17,5 +23,12 @@ public class Krang {
 		System.out.println("Information header : " + informationObj.getHeader());
 		System.out.println("Information value : " + informationObj.getValue());
 	}
+
+	public void printInformationObjJson(Information informationObj){
+		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		System.out.println(gson.toJson(informationObj));
+
+	}
+
 
 }
